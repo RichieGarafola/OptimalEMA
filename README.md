@@ -1,5 +1,8 @@
 # Optimal EMA
 
+Preview the Deployed App.
+https://optimalema.streamlit.app/
+
 An exponential moving average (EMA) is a type of moving average (MA) that places a greater weight and significance on the most recent data points. The exponential moving average is also referred to as the exponentially weighted moving average. An exponentially weighted moving average reacts significantly to recent price changes.
 
 Like all moving averages, this technical indicator is used to produce buy and sell signals based on crossovers and divergences from the historical average.

@@ -52,6 +52,11 @@ Libraries used:
 
 ---
 
+**File:** [Optimal EMA](OptimalEMA.py)
+
+---
+
+
 ## Step 1: Get the data
 
 Using the yahoo finance API get the data of the users choice
@@ -78,4 +83,17 @@ Create a for loop that iterates through a range of 3-500 to find the optimal EMA
 Create a candlestick chart using the Optimal EMA to visualize how it fits with the dataset
 
 
-!['Optimal EMA']()
+## Step 5: Test the Application
+Complete the following steps:
+
+
+In the terminal, navigate to the folder for this project.
+
+
+Be sure that your Conda development environment is active.
+
+
+Run the Streamlit app in the terminal by using "streamlit run OptimalEMA.py"
+
+
+Type some input text in the text box to customize user experience.

@@ -18,6 +18,8 @@ import numpy as np
 import matplotlib.pyplot as plt
  # ttest_ind function from scipy is used to perform a t-test for independent samples
 from scipy.stats import ttest_ind
+from PIL import Image
+
 
 
 # initiate 'name' variable to hold the ticker of the users choice
@@ -130,7 +132,9 @@ st.write(f"Overall return for EMA strategy: {overall_return_ema:.2f}")
 st.write(f"Overall return for buy and hold strategy: {overall_return_buy_and_hold:.2f}")
 
 # plot the returns for both strategies
-st.line_chart(data[['Forward Return', 'Buy and Hold Return']])
+plot_returns = data[['Forward Return', 'Buy and Hold Return']]
+# st.line_chart(data[['Forward Return', 'Buy and Hold Return']])
+st.line_chart(plot_returns)
 
 ### Add optimal EMA to OHLC 
 
